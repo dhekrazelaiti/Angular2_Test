@@ -12,7 +12,7 @@ ng new FirstApp
 - Cette commande permet de générer les différents fichiers d'una app basique Angula et installer toutes les dépendances requise .
 
 *** Exécution de projey ***
-ng serve
+- ng serve : commande pour exécuter l'app
 
 - Cette commande compile le code sur: http://localhost:4200;
  
