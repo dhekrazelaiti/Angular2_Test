@@ -1,17 +1,17 @@
-# Angular4_Test
-## Outil d'installation ***
+# Angular 4_Test
+## Outil d'installation 
 - Node JS 
 - Angular CLI (Command Line Interface) qui permet de générer, compiler, tester et déployer des projets angular (https://cli.angular.io/):
 npm install -g @angular/cli
 
-## Création d'un nouveau projet Angular ***
+## Création d'un nouveau projet Angular 
  - Pour générer la structure d'un projet Angular , on utilise Angular CLI via sa commande "ng" suivi de "new" et nom du projet
  
 - ng new FirstApp
 
 - Cette commande permet de générer les différents fichiers d'una app basique Angula et installer toutes les dépendances requise .
 
-## Exécution de projet ***
+## Exécution de projet 
 - ng serve : commande pour exécuter l'app
 
 - Cette commande compile le code sur: http://localhost:4200;
@@ -29,4 +29,10 @@ npm install -g @angular/cli
   - Une application Angular est formé d'n ensembles de composants
   - Chaque composant peut imbriquer d'autres composants définissant ainsi une structure hiérarchique.
   - Le composant racine s'appelle «Root Component»
+ ## Création d'un Composant 
+   - Pour la création d'un nouveau composant:  ng generate component Nom_Composant
+   - En tapant cette commande Angular CLI va nous créer un dossier dans lequel il va nous générer les fichiers de composant.
+   - ngOnInit() : méthode d'initialisation du composant
+
+   **NB : pour utiliser un composant , il faut qu'il soit déclarer dans le module car s'il n'est pas déclarer dans le module principale on ne peut pas l'utiliser, avec la commande "ng generate component" nous sommes pas obligé de le déclarer car il sera déclarer automatiquement**
 
