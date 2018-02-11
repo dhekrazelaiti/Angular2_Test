@@ -1,4 +1,4 @@
-# Angular 4_Test
+# Angular 4 Notes
 ## Outil d'installation 
 - Node JS 
 - Angular CLI (Command Line Interface) qui permet de générer, compiler, tester et déployer des projets angular (https://cli.angular.io/):
@@ -35,4 +35,15 @@ npm install -g @angular/cli
    - ngOnInit() : méthode d'initialisation du composant
 
    **NB : pour utiliser un composant , il faut qu'il soit déclarer dans le module car s'il n'est pas déclarer dans le module principale on ne peut pas l'utiliser, avec la commande "ng generate component" nous sommes pas obligé de le déclarer car il sera déclarer automatiquement**
+
+   ## Routage et Navigation
+   - Le routeur angular permet la navigation d'une vue à une autre lorsque les utilisateurs éxécute des taches d'application .
+   - C'est un service qui présente une vue de composant particulière pour une URL donnée.
+   - IL ne fait pas partie du noyau Angular
+   - Pour utilisé se module (@angular/router) il faut l'importer dans "src/app/app.modules.ts" en écrivant **import { RouterModule.Routes } from '@angular/routre'**
+   - De plus il faut déclarer les routes que nous allons l'utiliser.
+   - Les routes est un tableau d'objet et chaque objet représente une route.
+   - Chaque route est composé d'un path ('nom de la route') et component('composant associé à cette route')
+   - Déclaration des routes dans "app.modules.ts"
+   - path :'', redirectTo : la route qui s'affiche par défaut; pathMatch 'full' signifie qu'il faut écrire le nom complet de la route 
 

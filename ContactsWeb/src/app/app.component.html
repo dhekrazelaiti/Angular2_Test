@@ -1,5 +1,9 @@
-<div>
-  <p> Nom : {{contact.nom}} </p>
-  <p> Phone : {{contact.phone}} </p>
-  <p> Email : {{contact.mail}} </p>
+
+
+<div class="container">
+  <h1>Welcome to Contact App </h1>
+  <button routerLink="/about" class="btn btn-primary"> Contacts</button>
+  <button routerLink="/contact" class="btn btn-primary">New Contacts</button>
 </div>
+<router-outlet></router-outlet>
+<app-contacts></app-contacts>
