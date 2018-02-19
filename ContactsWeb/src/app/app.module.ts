@@ -5,6 +5,8 @@ import { RouterModule, Routes} from '@angular/router';
 import { AppComponent } from './app.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { AboutComponent } from './about/about.component';
+import { HttpModule } from '@angular/http';
+
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -23,7 +25,7 @@ const appRoutes: Routes = [
     AboutComponent
   ],
   imports: [
-    BrowserModule, RouterModule.forRoot(appRoutes)
+    BrowserModule ,RouterModule.forRoot(appRoutes), HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

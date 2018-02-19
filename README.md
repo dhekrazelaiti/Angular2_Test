@@ -3,6 +3,7 @@
 - Node JS 
 - Angular CLI (Command Line Interface) qui permet de générer, compiler, tester et déployer des projets angular (https://cli.angular.io/):
 npm install -g @angular/cli
+- pour vérifier si angular CLI est bien installer **ng- v**
 
 ## Création d'un nouveau projet Angular 
  - Pour générer la structure d'un projet Angular , on utilise Angular CLI via sa commande "ng" suivi de "new" et nom du projet

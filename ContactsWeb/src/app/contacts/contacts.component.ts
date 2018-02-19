@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contacts.component.css']
 })
 export class ContactsComponent implements OnInit {
-
-  contact = { nom : 'Dhekra', phone : '0654256', mail : 'dhekra@gmail.com'};
+  
   constructor() { }
 
   ngOnInit() {
+    console.log("Initialisation.......");
   }
 
 }
